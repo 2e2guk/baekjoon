@@ -1,4 +1,4 @@
-2606번 // silver 3
+2606번 // silver 3, https://www.acmicpc.net/problem/2606
 
 바이러스
 
