@@ -97,5 +97,5 @@ int main()
     cin >> n >> link;
     auto G = create_graph<T>(n, link);
     auto visit_order = BFS(G, 1);
-    cout << (visit_order.size() - 1) << endl;
+    cout << (visit_order.size() - 1) << endl; /// 1번 컴퓨터를 제외하고 감염된 컴퓨터의 수를 구하는 것이므로 1을 뺀다. 
 }
