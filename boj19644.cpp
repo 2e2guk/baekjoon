@@ -1,4 +1,5 @@
 // boj 19644 좀비 떼가 기관총 진지에도 오다니
+// 안 됨.-2022/12/18
 #include <iostream>
 #include <deque>
 #include <utility>
