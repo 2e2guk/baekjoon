@@ -83,6 +83,8 @@ int main()
     {
         if(fire_num[i] == -1)
             zombies[i].health -= claymore.damage;
+        else if(fire_num < 0)
+            zombies[i].health -= 0;
         else
             zombies[i].health -= (fire_num[i] * K6.damage);
     }
